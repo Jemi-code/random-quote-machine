@@ -1,0 +1,32 @@
+body {
+  height: 160vh;
+}
+
+#quote-box{
+  max-width: 40%;
+}
+
+@media (max-width: 800px) {
+  #quote-box{
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  #quote-box{
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  #quote-box{
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 300px) {
+  #quote-box{
+    max-width: 95%;
+  }
+}
+

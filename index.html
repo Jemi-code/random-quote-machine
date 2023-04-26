@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6ccd3832ba.js" crossorigin="anonymous"></script>
+</head>
+<body class = "d-flex align-items-center justify-content-center">
+    <main id="quote-box" class = "bg-white card container">
+        <figure class = "card-body">
+            <blockquote class = "blockquote">
+                <h5 class = "card-title" id = "category">category</h5>
+                <br>
+                <div class="text-start">
+                    <i class="fas fa-quote-left fa-pulse fa-lg"></i>
+                </div>
+                <p class = "text-center fs-5" id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates accusantium doloremque nisi. Ipsum, cumque natus?</p>
+                <div class = "text-end">
+                    <i class="fas fa-quote-right fa-pulse fa-lg"></i>
+                </div>
+            </blockquote>
+            <figcaption class = "blockquote-footer text-end">
+                <cite title="author" id="author">Author</cite>
+            </figcaption>
+
+            <aside class="icons">
+                <a href="#" id = "tweet-quote" target = "_top" class = "btn"><i class="fab fa-twitter fa-lg" style="color: #4077ce;"></i></a>
+            </aside>
+        </figure>
+
+        <div class = "card-footer">
+            <ul class = "nav nav-pills card-header-pills d-flex align-items-center justify-content-center">
+                <li class="nav-item btn btn-primary me-1 mb-1" id = "age">
+                    <a href="#" class="nav-link text-light">Age</a>
+                </li>
+                <li class="nav-item btn btn-primary me-1 mb-1" id = "equality">
+                    <a href="#" class="nav-link text-light">Equality</a>
+                </li>
+                <li class="nav-item btn btn-primary me-1 mb-1" id = "happiness">
+                    <a href="#" class="nav-link text-light">Happiness</a>
+                </li>
+                <li class="nav-item btn btn-primary me-1 mb-1" id = "learning">
+                    <a href="#" class="nav-link text-light">Learning</a>
+                </li>
+                <li class="nav-item btn btn-primary me-1 mb-1" id="new-quote">
+                    <a href="#" class="nav-link text-light">Random</a>
+                </li>
+            </ul>
+        </div>
+
+        <footer>
+            <small>by Jemimah</small>
+        </footer>
+    </main>
+    <script src="./jquery/script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</body>
+</html>
